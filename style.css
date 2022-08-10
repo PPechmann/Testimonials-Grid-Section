@@ -74,3 +74,14 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+:root{
+  --clr-moderate-violet: hsl(263, 55%, 52%);
+  --clr--dark-grayish-blue: hsl(217, 19%, 35%);
+  --clr-dark-blakish-blue: hsl(219, 29%, 14%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-light-gray: hsl(0, 0%, 81%);
+  --clr-light-gray-blue: hsl(210, 46%, 95%);
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
