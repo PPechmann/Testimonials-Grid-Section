@@ -75,7 +75,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
-
+/*UTILITY CLASSES*/
 :root{
   --clr-moderate-violet: hsl(263, 55%, 52%);
   --clr--dark-grayish-blue: hsl(217, 19%, 35%);
@@ -101,6 +101,8 @@ select {
 .text-dark-gray {
   color: rgb(127, 124, 124);
 }
+
+/* GENERAL STYLING*/
 
 body {
   min-height: 100vh;
@@ -186,4 +188,16 @@ body {
 .description {
   font-size: 1rem;
   font-weight: 500;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 700px) {
+  .grid {
+    display: block;
+  }
+
+.testimonial{
+  margin-bottom: 2rem;
+}
 }
